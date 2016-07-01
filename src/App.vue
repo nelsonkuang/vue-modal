@@ -4,15 +4,17 @@
     <button id="show-modal" @click="showModal({
       showcancel: false,
       showok: false,
-      header: 'Tips 1',
+      header: 'Title 1',
       body: 'body 1',
       okcallback: okcallback1,
       cancelcallback: cancelcallback1,
       duration: 1000
     })">Show Modal 1</button>
 
+    <br>
+    
     <button id="show-modal2" @click="showModal({
-      header: 'Tips 2',
+      header: 'Title 2',
       body: 'body 2',
       okcallback: okcallback2,
       cancelcallback: cancelcallback2
@@ -50,7 +52,6 @@ function extend (target, source) {
 
 export default {
   components: {
-    Address,
     Modal
   },
 
@@ -100,3 +101,14 @@ export default {
   }
 }
 </script>
+
+<style>
+#app {
+  text-align: center;
+}
+#app > button {
+  text-align: center;
+  margin: 30px 0;
+  padding: 20px;
+}
+</style>
