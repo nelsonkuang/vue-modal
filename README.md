@@ -17,4 +17,4 @@ npm run build
 then run `npm run dev` and check the page on http://localhost:8080/ 
 
 
-[jsfiddle demo](https://jsfiddle.net/nelsonkuang/36f5b9mo/1/)
+[jsfiddle demo](https://jsfiddle.net/nelsonkuang/36f5b9mo/)
