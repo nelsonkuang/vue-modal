@@ -3,7 +3,7 @@ A vue modal dialog compoment, it's more than the vue-example - Modal.
 
 Refer to the formal vue example - Modal   
 
-##Usage
+## Usage
 ```
 git clone https://github.com/nelsonkuang/vue-modal.git
 cd vue-modal
